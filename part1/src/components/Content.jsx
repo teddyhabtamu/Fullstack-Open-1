@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const Content = (props) => {
   return (
     <div>
       <p>
-        {props.part[0]} {props.exercise[0]}
+        {props.parts[0].name} {props.parts[0].exercises}
       </p>
       <p>
-        {props.part[1]} {props.exercise[1]}
+        {props.parts[1].name} {props.parts[1].exercises}
       </p>
       <p>
-        {props.part[2]} {props.exercise[2]}
+        {props.parts[2].name} {props.parts[2].exercises}
       </p>
     </div>
   );
-}
+};
 
-export default Content
+export default Content;
